@@ -5,7 +5,7 @@
 // Custom Styles
 
 .accordion {
-  font-family: 'Lobster', cursive;
+  font-family: 'Josefin Sans', sans-serif;
 
 }
 
@@ -17,6 +17,11 @@
   font-size: 25px;
   text-align: center;
   border-radius: 5px;
+}
+
+.section:hover {
+  background-color: #215263;
+  color: #260D1F;
 }
 
 .content {
