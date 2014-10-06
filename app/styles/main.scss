@@ -1,41 +1,52 @@
  // Bourbon & Neat
-@import '../../bower_components/bourbon/dist/bourbon';
+ @import '../../bower_components/bourbon/dist/bourbon';
 @import '../../bower_components/neat/app/assets/stylesheets/neat';
 
 // Custom Styles
 
 .accordion {
   font-family: 'Josefin Sans', sans-serif;
+  padding-top: 50px;
 
 }
 
 .section {
-  padding: 20px;
+  padding: 10px;
   border: 1px solid #B8933D;
   background: #260D1F;
   color: #215263;
   font-size: 25px;
   text-align: center;
   border-radius: 5px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .section:hover {
   background-color: #215263;
   color: #260D1F;
+  cursor: pointer;
 }
 
-.content {
-  background: #B8933D;
-  height: 5px;
-  overflow:hidden;
-  box-shadow: inset 0px 10px 20px -15px #000;
-  border-radius: 5px;
-  text-align: center;
-}
+// .content {
+//   background: #B8933D;
+//   height: 5px;
+//   overflow:hidden;
+//   box-shadow: inset 0px 10px 20px -15px #000;
+//   border-radius: 5px;
+//   text-align: center;
+// }
 
 .content p {
   padding: 2px;
   color: #215263;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+
+.open {
+  height: 250px;
+  background-color: red;
+}
+.close {
+  height: 0px;
 }
