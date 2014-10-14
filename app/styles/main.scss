@@ -5,38 +5,41 @@
 // Custom Styles
 
 
-.accordion {
-  font-family: 'Josefin Sans', sans-serif;
-  padding-top: 50px;
-}
 
-.section {
-  padding: 20px;
-  border: 1px solid #B8933D;
-  background: #260D1F;
-  color: #215263;
-  font-size: 25px;
-  text-align: center;
-  border-radius: 5px;
-}
 
-.section:hover {
-  background-color: #215263;
-  color: #260D1F;
-}
+    //Other
 
-.content {
-  background: #B8933D;
-  height: 5px;
-  overflow:hidden;
-  box-shadow: inset 0px 10px 20px -15px #000;
-  border-radius: 5px;
-  text-align: center;
-}
+*{box-sizing:border-box}
 
-.content p {
-  padding: 2px;
-  color: #215263;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
+.x {
+    width:450px;
+    background:url(../images/hipster.jpg);
+    background-size:450px 500px;
+    background-repeat:no-repeat;
+    margin-left:200px;
+    }
+.appear{
+    display:block;
+  }
+
+.hide{
+  display:none;
+    }
+
+h2{
+  width:450px;
+  border:1px solid #CECFCA;
+  border-radius:7px;
+  font-family:Serif;
+  font-size:25pt;
+  text-align:center;
+  background-color:#CECFCA;
+  }
+
+.box1,.box2,.box3{
+  width:450px;
+  margin-top:10px;
+  font-family:Helvetica,Arial;
+  font-size:11pt;
+  color:orange;
+  }
