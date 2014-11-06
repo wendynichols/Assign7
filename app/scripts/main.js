@@ -1,28 +1,20 @@
-// $(function(){
-//
-//   function animation(elem,options){
-//     elem.stop().animate(options,{
-//     duration: 1000,
-//     specialEasing: {
-//       width: "linear",
-//       height: "easeOutBounce"
-//     }},200);
-//   }
-//
-//   $(".accordion").on("click",".section",function(e){
-//       e.preventDefault();
-//       var current = $(this).next(".content");
-//     animation($(this).parent().children(".content").not(current),{
-//       "height":"0px"
-//     });
-//     animation(current,{
-//       "height":"100px"
-//     });
-//   });
-// });
+
+$('.content2').css("display","none");
+$('.content3').css("display","none");
 
 
-$("section").click(function(){
-  $("section").removeClass("sec1")
-  $(this).addClass("sec1");
-});
+$('.header1').click(function(){
+  $('.content1').css("display","block");
+  $('.content2').css("display","none");
+  $('.content3').css("display","none");
+    });
+$('.header2').click(function(){
+  $('.content2').css("display","block");
+  $('.content1').css("display","none");
+  $('.content3').css("display","none");
+    });
+$('.header3').click(function(){
+  $('.content3').css("display","block");
+  $('.content1').css("display","none");
+  $('.content2').css("display","none");
+    });
